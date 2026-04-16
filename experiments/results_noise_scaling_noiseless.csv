@@ -1,0 +1,7 @@
+V,n_qubits,vc_size,ref,ratio,time_ms,method,ref_type
+4,2,2,2,1.0,2.9866695404052734,dense_expm,exact_MILP
+8,3,3,3,1.0,2.3605823516845703,dense_expm,exact_MILP
+16,4,7,7,1.0,214.02955055236816,dense_expm,exact_MILP
+32,5,14,14,1.0,270.5810070037842,dense_expm,exact_MILP
+64,6,28,28,1.0,440.10281562805176,sparse_expm,exact_MILP
+128,7,52,52,1.0,1267.3113346099854,sparse_expm,exact_MILP

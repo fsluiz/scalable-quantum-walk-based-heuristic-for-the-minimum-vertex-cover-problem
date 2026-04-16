@@ -1,0 +1,74 @@
+Node sizes   : [1000, 2000, 5000, 10000, 20000, 50000, 100000]
+Instances/cfg: 5
+
+Warming up Numba JIT... done
+
+[BA graphs]
+  N=1000 done
+  N=2000 done
+  N=5000 done
+  N=10000 done
+  N=20000 done
+  N=50000 done
+  N=100000 done
+
+[ER graphs]
+  N=1000 done
+  N=2000 done
+  N=5000 done
+  N=10000 done
+  N=20000 done
+  N=50000 done
+  N=100000 done
+
+[Regular graphs]
+  N=1000 done
+  N=2000 done
+  N=5000 done
+  N=10000 done
+  N=20000 done
+  N=50000 done
+  N=100000 done
+
+Results saved: results_scalability_large.csv  (210 rows)
+
+======================================================================
+  Total instances : 210
+
+  BA (70 instances):
+    sp vs dg: 70 wins / 0 ties / 0 losses
+    Spectral   VBS-ratio: 1.0000 ± 0.0000
+    DG         VBS-ratio: 1.0211 ± 0.0038
+    SA         VBS-ratio: 1.0438 ± 0.0308
+
+  ER (70 instances):
+    sp vs dg: 70 wins / 0 ties / 0 losses
+    Spectral   VBS-ratio: 1.0000 ± 0.0000
+    DG         VBS-ratio: 1.0279 ± 0.0035
+    SA         VBS-ratio: 1.0445 ± 0.0279
+
+  REG (70 instances):
+    sp vs dg: 70 wins / 0 ties / 0 losses
+    Spectral   VBS-ratio: 1.0000 ± 0.0000
+    DG         VBS-ratio: 1.0924 ± 0.0098
+    SA         VBS-ratio: 1.1288 ± 0.0562
+
+  Pooled VBS-ratios:
+    Spectral  : 1.0000 ± 0.0000
+    DG        : 1.0471 ± 0.0328
+    SA        : 1.0724 ± 0.0567
+
+  Mean runtime (s):
+    V=   1000  sp=  0.203  dg=  0.007  sa=  0.094
+    V=   2000  sp=  0.814  dg=  0.007  sa=  0.281
+    V=   5000  sp=  1.930  dg=  0.035  sa=  1.086
+    V=  10000  sp=  4.433  dg=  0.140  sa=  2.352
+    V=  20000  sp=  9.937  dg=  0.577  sa=  5.534
+    V=  50000  sp= 28.324  dg=  3.635  sa= 15.352
+    V= 100000  sp= 70.970  dg= 14.767  sa= 40.846
+
+  Spectral runtime scaling (BA m=2, log-log): exponent=1.20, R²=1.000
+
+  Wilcoxon spectral < DG: W=0, p=1.65e-36
+
+Figures saved: figure_scalability_runtime.pdf, figure_scalability_quality.pdf

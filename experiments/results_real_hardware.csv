@@ -1,0 +1,6 @@
+label,graph_type,V,n_qubits,ref_size,classical_size,noiseless_size,fake_size_mean,fake_size_std,hardware_size,classical_ratio,noiseless_ratio,fake_ratio_mean,fake_ratio_std,hardware_ratio,hardware_valid,backend,n_shots,fake_reps
+"ER(V=4,p=0.6,s0)",ER(V=4),4,2,2,2,2,3.0,0.0,2,1.0,1.0,1.5,0.0,1.0,True,ibm_marrakesh,512,5
+"ER(V=4,p=0.6,s1)",ER(V=4),4,2,2,2,2,3.0,0.0,2,1.0,1.0,1.5,0.0,1.0,True,ibm_marrakesh,512,5
+"ER(V=4,p=0.6,s3)",ER(V=4),4,2,2,2,2,2.0,0.0,2,1.0,1.0,1.0,0.0,1.0,True,ibm_marrakesh,512,5
+"BA(V=8,m=2,s0)",BA(V=8),8,3,3,3,3,5.4,0.49,3,1.0,1.0,1.8,0.1632993161855452,1.0,True,ibm_marrakesh,512,5
+"BA(V=8,m=2,s1)",BA(V=8),8,3,4,4,4,6.0,0.0,6,1.0,1.0,1.5,0.0,1.5,True,ibm_marrakesh,512,5

@@ -1,0 +1,51 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: "Quantum Walk Minimum Vertex Cover"
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: "Fabricio"
+    family-names: "Souza Luiz"
+    email: fsluiz@unicamp.br
+    affiliation: "Instituto de Física Gleb Wataghin"
+    orcid: "https://orcid.org/0000-0002-6375-0939"
+identifiers:
+  - type: doi
+    value: "10.xxxx/xxxxx"
+    description: "The DOI for the published paper"
+repository-code: "https://github.com/yourusername/quantum-walk-mvc"
+url: "https://github.com/yourusername/quantum-walk-mvc"
+abstract: >-
+  Implementation of continuous-time quantum walk (CTQW) based
+  heuristic algorithms for solving the Minimum Vertex Cover
+  problem on graphs. Includes comparison with classical
+  algorithms and benchmarks on various graph types.
+keywords:
+  - quantum computing
+  - quantum walk
+  - vertex cover
+  - graph algorithms
+  - optimization
+  - combinatorial optimization
+license: MIT
+version: "1.0.0"
+date-released: "2025-12-4"
+preferred-citation:
+  type: article
+  authors:
+    - given-names: "Fabricio"
+      family-names: "de Souza Luiz"
+    - given-names: "Arthur"
+      family-names: "K. F. Iwakami"
+    - given-names: "Daniel"
+      family-names: "H. Moraes"
+    - given-names: "Marcos"
+      family-names: "Cesar de Oliveira"
+  title: "Scalable Quantum Walk-Based Heuristics for the Minimum Vertex Cover Problem"
+  journal: "Arxiv"
+  year: 2025
+  doi: "10.48550/arXiv.2512.02940"

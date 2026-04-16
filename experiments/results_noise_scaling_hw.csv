@@ -1,0 +1,8 @@
+label,V,n_qubits,circuit_depth,two_q_gates,ref_size,noiseless_size,noiseless_ratio,fake_ratio_mean,fake_ratio_std,hw_size,hw_ratio,hw_valid,backend
+"ER(V=4,s0)",4,2,23,3,2,2,1.0,1.5,0.0,2,1.0,True,ibm_marrakesh
+"ER(V=4,s1)",4,2,23,3,2,2,1.0,1.5,0.0,2,1.0,True,ibm_marrakesh
+"BA(V=8,s0)",8,3,146,37,3,3,1.0,2.0,0.0,6,2.0,True,ibm_marrakesh
+"BA(V=8,s1)",8,3,146,37,4,4,1.0,1.5,0.0,6,1.5,True,ibm_marrakesh
+"ER(V=16,s0)",16,4,806,245,10,10,1.0,,,11,1.1,True,ibm_marrakesh
+"ER(V=16,s1)",16,4,806,245,10,11,1.1,,,13,1.3,True,ibm_marrakesh
+"BA(V=32,s0)",32,5,3445,1044,14,14,1.0,,,26,1.8571428571428572,True,ibm_marrakesh
