@@ -41,10 +41,6 @@ quantum-walk-mvc/
 │   ├── snap/                   # SNAP real-world graphs (.gz, tracked)
 │   └── legacy/                 # Large legacy benchmark CSVs (Zenodo only)
 │       └── README.md           # Download instructions
-├── paper/                      # Paper source (LaTeX + figures)
-│   ├── main_v2.tex
-│   ├── lib.bib
-│   └── figures/
 ├── tests/                      # Unit tests
 └── notebooks/                  # Jupyter notebooks
 ```
